@@ -1,0 +1,93 @@
+.container {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background-color: #F8F8F8;
+	height: 100%;
+}
+
+body{
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+svg {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 682px;
+	display: block;
+	margin: auto;
+}
+
+#q1 {
+    animation-name: moveq1;
+	animation-duration: 300ms;
+	animation-play-state: paused;
+}
+#q1:hover{
+	animation-play-state: running;
+}
+
+#q2 {
+    animation-name: moveq2;
+	animation-duration: 300ms;
+	animation-play-state: paused;
+}
+#q2:hover{
+	animation-play-state: running;
+}
+
+#q3 {
+    animation-name: moveq3;
+	animation-duration: 300ms;
+	animation-play-state: paused;
+}
+#q3:hover{
+	animation-play-state: running;
+}
+
+#q4 {
+    animation-name: moveq4;
+	animation-duration: 300ms;
+	animation-play-state: paused;
+}
+
+#q4:hover{
+	animation-play-state: running;
+}
+
+@keyframes moveq1{
+	from {
+		transform: translate(0px, 0px);
+	}
+	to {
+		transform: translate(100px, -106px);
+	}
+}
+@keyframes moveq2{
+	from {
+		transform: translate(0px, 0px);
+	}
+	to {
+		transform: translate(100px, 106px);
+	}
+}
+@keyframes moveq3{
+	from {
+		transform: translate(0px, 0px);
+	}
+	to {
+		transform: translate(-100px, 106px);
+	}
+}
+@keyframes moveq4{
+	from {
+		transform: translate(0px, 0px);
+	}
+	to {
+		transform: translate(-100px, -106px);
+	}
+}
