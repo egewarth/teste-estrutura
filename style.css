@@ -23,10 +23,10 @@ svg {
 }
 
 #q1 {
-    animation-name: moveq1;
-	animation-duration: 300ms;
-	animation-iteration-count: infinite;
+	animation-duration: 500ms;
 	animation-play-state: paused;
+	animation-fill-mode: forwards;
+	animation-direction: alternate;
 }
 
 #q2 {
@@ -57,12 +57,20 @@ svg {
 	animation-play-state: running;
 }
 
-@keyframes moveq1{
+@keyframes moveInQ1{
 	from {
 		transform: translate(0px, 0px);
 	}
 	to {
 		transform: translate(100px, -106px);
+	}
+}
+@keyframes moveOutQ1{
+	from {
+		transform: translate(100px, -106px);
+	}
+	to {
+		transform: translate(0px, 0px);
 	}
 }
 @keyframes moveq2{

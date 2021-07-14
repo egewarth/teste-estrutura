@@ -62,15 +62,16 @@
         </svg>
     </div>
     <script>
-        document.getElementById("area1").onmouseover = function() {mouseOver()};
-        document.getElementById("area1").onmouseout = function() {mouseOut()};
+        document.getElementById("area1").onmouseover = function() {mouseOverQ1()};
+        document.getElementById("area1").onmouseout = function() {mouseOutQ1()};
         
-        function mouseOver() {
+        function mouseOverQ1() {
+            document.getElementById("q1").style.animationName = "moveInQ1";
             document.getElementById("q1").style.animationPlayState = "running";
         }
-        
-        function mouseOut() {
-            document.getElementById("q1").style.animationPlayState = "paused";
+        function mouseOutQ1() {
+            document.getElementById("q1").style.animationName = "moveOutQ1";
+            document.getElementById("q1").style.animationPlayState = "running";
         }
         
     </script>
