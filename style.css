@@ -25,10 +25,8 @@ svg {
 #q1 {
     animation-name: moveq1;
 	animation-duration: 300ms;
+	animation-iteration-count: infinite;
 	animation-play-state: paused;
-}
-#q1:hover{
-	animation-play-state: running;
 }
 
 #q2 {
