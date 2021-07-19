@@ -31,6 +31,15 @@ svg {
 	fill: #1A1B59;
 }
 
+.quadrantes{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14.22px;
+	line-height: 100%;
+	align-items: center;
+	fill: #FFDB2C;
+}
+
 .iniciativas {
 	font-family: Montserrat;
 	font-weight: 500;
@@ -43,7 +52,7 @@ svg {
 
 .temas{
 	font-family: Montserrat;
-	font-weight: 800;
+	font-weight: 900;
 	font-size: 14.22px;
 	line-height: 100%;
 	align-items: center;
