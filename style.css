@@ -50,6 +50,16 @@ svg {
 	text-decoration: underline;
 }
 
+.iniciativas_sl {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 12.4444px;
+	line-height: 100%;
+	align-items: center;
+	fill: black;
+	text-decoration: none;
+}
+
 .temas{
 	font-family: Montserrat;
 	font-weight: 900;
